@@ -1,6 +1,7 @@
 class Solution {
     public boolean containsDuplicate(int[] nums) {
 
+        // APPROACH 1
         HashSet <Integer> map= new HashSet<>();
 
         for(int n:nums){
@@ -13,3 +14,5 @@ class Solution {
         
     }
 }
+// APPROACH 2 BY SORTING WITH 2 LOOPS and then comparison 
+// when the i will equal to j then return true 
